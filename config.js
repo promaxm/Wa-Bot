@@ -1,6 +1,6 @@
 // - - THANKS TO - -
 // • Allah SWT
-// • Nurutomo
+// • Aseel ADAYA
 // • Bochilgaming
 // • Rominaru
 // • Kannachann

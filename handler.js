@@ -765,7 +765,7 @@ export async function groupsUpdate(groupsUpdate) {
         if (groupUpdate.restrict == true) text = (chats.sRestrictOn || this.sRestrictOn || conn.sRestrictOn || '*Group has been all participants!*')
         if (groupUpdate.restrict == false) text = (chats.sRestrictOff || this.sRestrictOff || conn.sRestrictOff || '*Group has been only admin!*')
         if (!text) continue
-         this.send2ButtonDoc(id, text.trim(), author, '🔖 Ahmad Ali', '.off detect', '🎀 Menu', '.menu', fakes, adReply)
+         this.send2ButtonDoc(id, text.trim(), author, '🔖 Aseel ADAYA', '.off detect', '🎀 Menu', '.menu', fakes, adReply)
     }
 }
 
@@ -786,7 +786,7 @@ Untuk mematikan fitur ini, ketik
 *.enable delete*
           
 Untuk menghapus pesan yang dikirim oleh Bot, reply pesan dengan perintah
-*.delete*`, author, '🔖 Ahmad Ali', '.on delete', '🎀 Menu', '.menu', msg, adReply)
+*.delete*`, author, '🔖 Aseel Adaya', '.on delete', '🎀 Menu', '.menu', msg, adReply)
         this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
     } catch (e) {
         console.error(e)
